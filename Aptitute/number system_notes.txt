@@ -1,0 +1,88 @@
+Numbers are the fundamental units of mathematics. In this article, we will discuss numbers, their types, important facts, divisibility rules, and other important points about numbers for aptitude preparation.
+
+Types of Numbers
+Integers: All numbers whose fractional part is 0 (zero), like -3, -2, 1, 0, 10, and 100, are integers.
+Natural Numbers: Counting numbers like 1, 2, 3, 4, 5, 6 ... Basically, all integers greater than 0 are natural numbers.
+Whole Numbers: All natural numbers and 0 (zero) are whole numbers.
+Prime Numbers: All numbers having only two distinct factors, the number itself and 1, are called prime numbers. Some prime numbers are 2, 3, 53, 67, and 191.
+Composite Number: All numbers greater than 1 that are NOT prime are composite numbers. Some composite numbers are 4, 60, 91, and 100.
+
+Divisibility Rules
+Here's a table summarizing the divisibility rule of common numbers:
+
+Divisibility by Number      
+
+Rule
+
+Example
+
+Divisibility By 2
+
+The last digit should be even.
+
+124 last digit is 4( even), so it is divisible by 2.
+
+Divisibility By 3
+
+The sum of its digits should be divisible by 3.
+
+12321 divisible by 3 because 1 + 2 + 3 + 2 + 1 = 9 and 9 is divisible by 3.
+
+Divisibility By 4
+
+The last two digits should be divisible by 4.
+
+1232 is divisible by 4 as the last two digits 32 are divisible by 4.
+
+Divisibility By 5
+
+The last digit is either 0 or 5.
+
+85 last digit is 5, so 85 is divisible by 5.
+
+Divisibility By 6
+
+The number should be divisible by both 2 and 3.
+
+114 is divisible by 6 as it is divisible by both 2 and 3:
+
+2(the last digit is 4)
+3 (1 + 1 + 4 = 6, 6 is divisible by 3).
+Divisibility By 7
+
+Remove last digit from the number then Double the last digit, subtract it from the rest of the number, and if the result is divisible by 7, the number is divisible by 7.
+
+196 is divisible by 7
+
+Remove the last digit, we get 19.
+Double the last digit: 12
+Subtract it from the rest of the number: 19 - 12 = 7
+After subtracting 12 (double of removed digit), we get 7.
+Since the last left digit is 7, number is multiple of 7.
+Divisibility By 8
+
+The last three digits should be divisible by 8.
+
+1232 is divisible by 8 as the last three digits 232 is divisible by 8.
+
+Divisibility By 9
+
+The sum of its digits is divisible by 9.
+
+12321 is divisible by 9 because 1 + 2 + 3 + 2 + 1 = 9 and 9 is divisible by 9.
+
+Divisibility By 11
+
+The difference between the sum of numbers at even positions and odd positions is either 0 or a multiple of 11.
+
+121 is divisible by 11 as
+
+The sum of odd position 1 + 1 = 2 and
+The sum of even position 2 as we
+Find the difference 2 - 2 = 0. which is divisible by 11.
+
+Other Useful Rules
+
+If we repeat a three-digit number twice, to form a six-digit number. The result will be divisible by 7, 11, and 13, and dividing by all three will give your original three-digit number.
+A number of form 2N has exactly N+1 divisors.
+For example: 4 has 3 divisors, 1, 2, and 4.
