@@ -1,0 +1,82 @@
+Python Bitwise Operators take one or two operands, and operate on them bit by bit, instead of whole. Following are the bitwise operators in Python
+
+
+
+1. << (Left shift):
+
+Shifts the left-side operand bits towards the left side for the given number of times in the right operand.
+This operation effectively multiplies the left-hand operand by 2 raised to the power of the number of positions shifted.
+Example:
+
+x = 12 = 0000 1100 ---> (Binary representation)
+x << 2 = 0011 0000 ---> 48 
+x = 12 and x << 2 will return 48 i.e. (12 * (2 ** 2))
+
+
+2. >> (Right shift):
+
+Shifts the left-side operand bits are moved towards the right side for the given number of times.
+This operation is equivalent to dividing the left-hand operand by 2 raised to the power of the number of positions shifted.
+Example:
+
+x = 48 = 0011 0000 ---> (Binary representation)
+x >> 3 = 0000 0110 ---> 6
+x = 48 and x >> 3 will return 6 i.e. (48 / (2 ** 3))
+
+
+3. & (AND):
+
+Results bit 1, if both operand bits are 1; otherwise, results bit 0.
+Example:
+
+If the bit in x and the corresponding bit in y are 1, then the bit in the result will be 1. Otherwise, it will be zero
+
+x = 10 = 1010
+y = 4  = 0100
+x & y  = 1010
+    	&
+         0100
+      = 0000
+      = 0 (Decimal)
+
+
+4.| (OR):
+
+Results bit 1 if any of the operand bits is 1; otherwise, results bit 0.
+Example:
+
+If the bit in both operands is zero, then the resulting bit is zero. otherwise, it is 1.
+
+x = 10 = 1010
+y = 4 = 0100
+x | y = 1010
+        |
+       0100
+     = 1110
+     = 14 (Decimal)
+
+
+5.~(NOT):
+
+It is a unary operation that performs logical negation on each bit, forming the one's complement of the given binary value. Bits that are 0 become 1, and those that are 1 become 0.
+Example:
+
+x = 5
+ x = 00000101
+~ x = 11111010
+~ x = -00000110 (in signed form)
+Therefore ~x = -6 (in signed form)
+
+
+6.^(XOR):
+
+Results bit 1, if any of the operand bits is 1 but not both, otherwise results bit 0.
+Example:
+
+x = 10 = 1010
+y = 4 = 0100 
+x ^ y = 1010
+        ^
+        0100
+      = 1110
+      = 14 (Decimal)
